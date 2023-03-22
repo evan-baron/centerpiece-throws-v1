@@ -30,7 +30,7 @@ body {
   height: auto;
 }
 
-.navigation-bar {
+nav {
   font-size: 0px;
   background-color: rgb(30, 30, 30);
   position: relative;
@@ -41,7 +41,7 @@ body {
   width: 100%;
 }
 
-.navigation-bar li {
+nav li {
   display: inline-block;
   font-family: 'Calibri';
   font-size: 24px;
@@ -53,15 +53,15 @@ body {
   text-decoration: none;
 }
 
-.navigation-bar a.left {
+#left-nav-button {
   border-left: 2px solid black;
 }
 
-.navigation-bar li.right {
+#right-nav-button {
   border-right: 2px solid black;
 }
 
-.navigation-bar li:hover {
+nav li:hover {
   background-color: rgb(100, 100, 100);
   transition: .5s;
 }
