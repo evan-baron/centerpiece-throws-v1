@@ -86,6 +86,7 @@ nav li {
 nav li:hover {
   background-color: rgb(100, 100, 100);
   transition: ease-in .3s;
+  cursor: pointer;
 }
 
 ul li:hover .dropdown,
