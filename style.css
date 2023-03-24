@@ -3,9 +3,19 @@
 }
 
 body {
+  position: relative;
   background: black;
   margin: 50px;
   padding: 0;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Calibri';
+}
+
+body div {
+  color:white;
+  overflow-wrap: break-word;
 }
 
 .header-container {
@@ -92,6 +102,7 @@ nav li a {
 }
 
 .dropdown li a {
+  font-size: 16px;
   text-align: left;
   width: 130px;
 }
