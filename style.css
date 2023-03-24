@@ -66,13 +66,13 @@ nav li a {
   border: 1px solid black;
 }
 
-/* #left-nav-button {
+#left-nav-button {
   border-left: 1px solid black;
 }
 
 #right-nav-button {
   border-right: 1px solid black;
-} */
+}
 
 .dropbtn {
   display: inline-block;
