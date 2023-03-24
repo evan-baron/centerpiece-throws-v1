@@ -21,8 +21,12 @@ body {
   left: 12px;
   font-size: 64px;
   font-family: 'Edwardian Script ITC';
-  color: white;
   font-weight: bold;
+}
+
+.header-text a {
+  text-decoration: none;
+  color: white;
 }
 
 .banner-img {
@@ -32,14 +36,15 @@ body {
 
 nav {
   font-size: 0px;
-  background-color: rgb(30, 30, 30);
   position: relative;
   text-align: center;
   margin-top: -4px;
-  width: 100%;
 }
 
+/* remove default margin to prevent misalignment of nav bar contents */
+
 nav ul {
+  background-color: rgb(30, 30, 30);
   margin: 0px;
   padding: 0px;
 }
@@ -57,6 +62,39 @@ nav li {
   text-decoration: none;
 }
 
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  background-color:rgb(100, 100, 100);
+  visibility: hidden;
+  opacity: 1;
+  position: absolute;
+  display: none;
+  margin-top: 10px;
+  left: -1px;
+}
+
+.dropdown li {
+  text-align: left;
+  width: 130px;
+}
+
+nav li:hover {
+  background-color: rgb(100, 100, 100);
+  transition: ease-in .3s;
+}
+
+ul li:hover .dropdown,
+.dropdown:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
 #left-nav-button {
   border-left: 2px solid black;
 }
@@ -65,7 +103,3 @@ nav li {
   border-right: 2px solid black;
 }
 
-nav li:hover {
-  background-color: rgb(100, 100, 100);
-  transition: ease-in .3s;
-}
