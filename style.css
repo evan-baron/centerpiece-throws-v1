@@ -51,14 +51,13 @@ nav ul {
 
 nav li {
   display: inline-block;
-  text-align: center;
-  font-size: 24px;
 }
 
 nav li a {
   display: inline-block;
   position: relative;
   color: white;
+  font-size: 24px;
   text-decoration: none;
   font-family: 'Calibri';
   padding: 10px 40px;
@@ -84,15 +83,12 @@ nav li a {
 .dropdown {
   display: none;
   text-align: left;
-  visibility: hidden;
   position: absolute;
-
 }
 
 .dropdown li {
   display: block;
   text-align: left;
-
 }
 
 .dropdown li a {
@@ -105,8 +101,6 @@ nav li a:hover {
   transition: .3s;
 }
 
-nav li:hover .dropdown,
-.dropdown:hover {
+nav li:hover .dropdown {
   display: block;
-  visibility: visible;
 }
