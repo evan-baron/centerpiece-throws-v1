@@ -63,7 +63,8 @@ nav li a {
   font-family: 'Calibri';
   padding: 10px 40px;
   background: rgb(30, 30, 30);
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 #left-nav-button {
