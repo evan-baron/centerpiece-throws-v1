@@ -35,71 +35,35 @@ body {
 }
 
 nav {
-  font-size: 0px;
   position: relative;
   text-align: center;
   margin-top: -4px;
 }
 
-/* remove default margin to prevent misalignment of nav bar contents */
-
 nav ul {
-  background-color: rgb(30, 30, 30);
-  list-style-type: none;
+  font-size: 0px;
+  /* removes the spaces inbetween the nav buttons */
   margin: 0px;
   padding: 0px;
+  /* removes the margin and padding to keep all the buttons centered */
+  background:rgb(30, 30, 30);
 }
 
 nav li {
-  position: relative;
   display: inline-block;
-  font-family: 'Calibri';
+  text-align: center;
   font-size: 24px;
-  color: white;
-  background-color: rgb(30, 30, 30);
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  padding: 10px 40px;
-  text-decoration: none;
 }
 
 nav li a {
-  color: white;
-  text-decoration: none;
-}
-
-.dropbtn {
   display: inline-block;
+  position: relative;
   color: white;
   text-decoration: none;
-}
-
-.dropdown {
-  background-color:rgb(100, 100, 100);
-  visibility: hidden;
-  opacity: 1;
-  position: absolute;
-  display: none;
-  margin-top: 10px;
-  left: -1px;
-}
-
-.dropdown li {
-  text-align: left;
-  width: 130px;
-}
-
-nav li:hover {
-  background-color: rgb(100, 100, 100);
-  transition: ease-in .3s;
-  cursor: pointer;
-}
-
-ul li:hover .dropdown,
-.dropdown:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
+  font-family: 'Calibri';
+  padding: 10px 40px;
+  background: rgb(30, 30, 30);
+  border: 1px solid black;
 }
 
 #left-nav-button {
@@ -108,4 +72,40 @@ ul li:hover .dropdown,
 
 #right-nav-button {
   border-right: 2px solid black;
+}
+
+.dropbtn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: none;
+  text-align: left;
+  visibility: hidden;
+  position: absolute;
+
+}
+
+.dropdown li {
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown li a {
+  text-align: left;
+  width: 130px;
+}
+
+nav li a:hover {
+  background: rgb(100, 100, 100);
+  transition: .3s;
+}
+
+nav li:hover .dropdown,
+.dropdown:hover {
+  display: block;
+  visibility: visible;
 }
