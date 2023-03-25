@@ -113,7 +113,7 @@ nav li a {
 .dropdown li a {
   font-size: 16px;
   text-align: left;
-  width: 130px;
+  width: 100px;
 }
 
 nav li a:hover {
