@@ -2,6 +2,11 @@
   border: 0px solid red;
 }
 
+@font-face {
+  font-family: 'Edwardian Script ITC';
+  src: url('../centerpiece-throws/ITCEDSCR.TTF') format('truetype')
+}
+
 body {
   position: relative;
   background: rgb(30, 30, 30);
