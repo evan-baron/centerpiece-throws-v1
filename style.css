@@ -9,7 +9,7 @@
 
 body {
   position: relative;
-  background: black;
+  background: rgb(30, 30, 30);
   margin: 20px 50px;
   padding: 0;
   width: 1000px;
