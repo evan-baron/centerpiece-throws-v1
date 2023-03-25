@@ -28,6 +28,7 @@ body div {
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
+  box-shadow: 2px 2px 20px black;
 }
 
 .header-text {
@@ -99,6 +100,7 @@ nav li a {
   display: none;
   text-align: left;
   position: absolute;
+  box-shadow: 2px 2px 20px black;
 }
 
 .dropdown li {
