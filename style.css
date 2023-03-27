@@ -2,11 +2,6 @@
   border: 0px solid red;
 }
 
-@font-face {
-  font-family: 'Edwardian Script ITC';
-  src: url('../centerpiece-throws/ITCEDSCR.TTF') format('truetype');
-}
-
 body {
   position: relative;
   background: rgb(30, 30, 30);
@@ -18,9 +13,11 @@ body {
   font-family: 'Calibri';
 }
 
-body div {
+.content {
   color:white;
   overflow-wrap: break-word;
+  position: relative;
+  z-index: 1;
 }
 
 .header-container {
@@ -29,6 +26,7 @@ body div {
   margin-right: auto;
   width: 1000px;
   box-shadow: 2px 2px 20px black;
+  z-index: 2;
 }
 
 .header-text {
@@ -94,7 +92,7 @@ nav li a {
   display: inline-block;
   position: relative;
   text-decoration: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown {
@@ -102,7 +100,7 @@ nav li a {
   text-align: left;
   position: absolute;
   box-shadow: 2px 2px 20px black;
-  z-index: 2;
+  z-index: 3;
 }
 
 .dropdown li {
@@ -123,4 +121,28 @@ nav li a:hover {
 
 nav li:hover .dropdown {
   display: block;
+}
+
+.home {
+  background: rgb(100, 100, 100);
+}
+
+.news {
+  background: rgb(100, 100, 100);
+}
+
+.shop {
+  background: rgb(100, 100, 100);
+}
+
+.yoyos {
+  background: rgb(100, 100, 100);
+}
+
+.about {
+  background: rgb(100, 100, 100);
+}
+
+.contact {
+  background: rgb(100, 100, 100);
 }
