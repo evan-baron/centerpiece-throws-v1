@@ -13,8 +13,12 @@ body {
   font-family: 'Calibri';
 }
 
+h1 {
+  color: white;
+}
+
 .content {
-  color:white;
+  color: white;
   overflow-wrap: break-word;
   position: relative;
   z-index: 1;
