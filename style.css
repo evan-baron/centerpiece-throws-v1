@@ -18,16 +18,7 @@ body {
   font-family: 'Calibri';
 }
 
-h1 {
-  color: white;
-}
-
-.content {
-  color: white;
-  overflow-wrap: break-word;
-  position: relative;
-  z-index: 1;
-}
+/* Header Styles */
 
 .header-container {
   position: relative;
@@ -56,6 +47,8 @@ h1 {
   width: 1000px;
   height: auto;
 }
+
+/* Nav Styles */
 
 nav {
   position: relative;
@@ -132,25 +125,91 @@ nav li:hover .dropdown {
   display: block;
 }
 
+/* Section Styles */
+
+h1 {
+  color: white;
+  font-size: 48px;
+  box-shadow: 2px 2px 20px black;
+  z-index: 3;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/* Home Page Specific Styles */
+
 .home {
   background: rgb(100, 100, 100);
 }
 
+/* News Page Specific Styles */
+
 .news {
+  display: relative;
   background: rgb(100, 100, 100);
 }
+
+.article {
+  box-sizing: border-box;
+  display: inline-flex;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.section-box {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  box-shadow: 2px 2px 20px black;
+  z-index: 3;
+}
+
+.content-box {
+  width: 69%;
+}
+
+.specs-box {
+  width: 29%;
+}
+
+.article-image {
+  display: flex;
+  float: left;
+  margin-right: 12px;
+  width: 400px;
+  height: auto;
+  z-index: 2;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+/* Shop Page Specific Styles */
 
 .shop {
   background: rgb(100, 100, 100);
 }
 
+/* Yoyos Page Specific Styles */
+
 .yoyos {
   background: rgb(100, 100, 100);
 }
 
+/* About Page Specific Styles */
+
 .about {
   background: rgb(100, 100, 100);
 }
+
+/* Contact Page Specific Styles */
 
 .contact {
   background: rgb(100, 100, 100);
