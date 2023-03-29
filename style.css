@@ -136,8 +136,13 @@ nav li:hover .dropdown {
 /* Section Styles */
 
 h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   font-size: 48px;
+  padding: 20px;
+  box-shadow: 2px 2px 20px black;
 }
 
 h2 {
