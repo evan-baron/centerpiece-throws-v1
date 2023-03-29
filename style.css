@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-  padding: 5px;
+  padding: 20px;
   box-shadow: 2px 2px 20px black;
   z-index: 2;
 }
